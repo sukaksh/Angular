@@ -1,0 +1,14 @@
+<div class="main">
+    <form>
+      
+                  <label> First Name</label> <br>
+                    <input type = "text" #fname pattern="[a-zA-Z]" required/><br>
+                    <label>Last Name</label><br>
+                    <input type = "text" #lname pattern="[a-zA-Z]" required/><br>
+                    <label>Contact No.</label> <br>
+                    <input  type = "text" #number pattern="[0-9]{10}" required/><br><br>
+                    <button type='button' class="btn btn-success" (click)="AddRecord(fname.value,lname.value,number.value)">Add</button>
+                    <button type='button' class="btn btn-warning" routerLink="">Go back</button>
+              
+    </form>
+</div>

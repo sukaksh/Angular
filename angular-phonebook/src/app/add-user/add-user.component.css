@@ -1,0 +1,37 @@
+
+.main{
+    position: fixed;
+ top:20%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  
+}
+label{
+    margin-left: 85px;
+    color: black;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+   
+  }
+  button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 8px 15px;
+  }
+  label{
+     font-weight: bold;
+  }
